@@ -1,0 +1,27 @@
+: Connect to a VPN service in a specific country using the connect endpoint Disconnect from the VPN
+ using the disconnect endpoint Establish communication between users using the communicate endpoint
+
+
+
+
+
+
+
+
+
+
+
+
+
+Error handling: Handle exceptions in case of invalid input or missing information.
+
+The application should use the RESTful API approach, and the response should be in the form of HTTP status codes. The controllers and their respective endpoints have been described in the code snippet provided. The application should use the provided AdminController, UserController, and ConnectionController and their endpoints as specified.
+
+Note:
+
+The driver code for implementation of interfaces has been provided. You need to write the interfaces yourself.
+Only findById should be used wherever necessary.
+No other JPA methods like findAll, findByUsername should be used.
+save method in the JPA repository can return the corresponding object wherever necessary. Do not accept the returned value from the save method unless required absolutely.
+Do not change the name of any existing function/class/attribute.
+Avoid using the lombok library. Define getters and setters manually.
